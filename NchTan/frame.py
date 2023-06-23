@@ -23,8 +23,17 @@ class NchTanQ:
         pass
 
     @staticmethod
-    def is_each_item_in_arr():
-        pass
+    def is_each_item_in_arr(array_1: list | set | tuple,
+                            array_2: list | set | tuple):
+        """this array  will check if each item in array_1 is in
+         array_2 or no"""
+
+        for array_1_item in array_1:
+            if array_1_item not in array_2:
+                return False
+
+        return True
+
 
 
 
