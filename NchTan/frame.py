@@ -3,10 +3,20 @@ the n choice and t answer quetions and we create
 some logics to work with them"""
 
 from __future__ import annotations
+from dataclasses import dataclass
 
 
+@dataclass
+class QuestionDataSaver:
 
-class NchTanQ:
+    question_title: str
+    choices: list | set | tuple
+    answers: list | set | tuple
+    hints: str
+    descriptions: str
+
+
+class NchTanQ(QuestionDataSaver):
     """NchTanQ"""
 
     question_title: str
@@ -15,12 +25,17 @@ class NchTanQ:
     hints: str
     descriptions: str
 
-    def __init__(self,question_title: str,
-                      choices: list | set | tuple,
-                      answers: list | set | tuple,
-                      hints: str="",
-                      descriptions: str=""):
-        pass
+    def __init__(self, question_title: str,
+                 choices: list | set | tuple,
+                 answers: list | set | tuple,
+                 hints: str = "",
+                 descriptions: str = ""):
+
+        if not self.is_each_item_in_arr(answers, choices):
+            raise ValueError("the answrs must be present in  choices")
+
+        super().__init__(question_title, choices,
+                         answers, hints, descriptions)
 
     @staticmethod
     def is_each_item_in_arr(array_1: list | set | tuple,
@@ -33,18 +48,3 @@ class NchTanQ:
                 return False
 
         return True
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
