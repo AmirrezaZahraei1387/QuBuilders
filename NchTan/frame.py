@@ -8,7 +8,6 @@ from dataclasses import dataclass
 
 @dataclass
 class QuestionDataSaver:
-
     question_title: str
     choices: list | set | tuple
     answers: list | set | tuple
@@ -24,6 +23,7 @@ class NchTanQ(QuestionDataSaver):
     answers: list | set | tuple
     hints: str
     descriptions: str
+    number_choices:int
 
     def __init__(self, question_title: str,
                  choices: list | set | tuple,
@@ -32,10 +32,10 @@ class NchTanQ(QuestionDataSaver):
                  descriptions: str = ""):
 
         if not self.is_each_item_in_arr(answers, choices):
-            raise ValueError("the answrs must be present in  choices")
+            raise ValueError("the answers must be present in  choices")
 
         super().__init__(question_title, choices,
-                         answers, hints, descriptions)
+                         answers, hints, descriptions, len(choices))
 
     @staticmethod
     def is_each_item_in_arr(array_1: list | set | tuple,
@@ -48,3 +48,22 @@ class NchTanQ(QuestionDataSaver):
                 return False
 
         return True
+
+    def __str__(self):
+
+        complete_question = ""
+        complete_question += self.question_title
+
+        for choice in self.choices:
+            complete_question += '\n'+str(choice)
+
+        complete_question += '\n'+str(self.answers)
+
+        complete_question += '\n'+self.hints
+        complete_question += '\n'+self.descriptions
+
+        return complete_question
+
+
+
+
