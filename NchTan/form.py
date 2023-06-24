@@ -3,7 +3,7 @@ from __future__ import annotations
 import random
 
 
-class QuestionDataSaver:
+class QuestionDataSaver():
 
     def __init__(self, question_title: str,
                  answers: list | set | tuple,
@@ -41,4 +41,3 @@ class QuestionDataSaver:
         """this method shuffle the choices if it is
         needed"""
         random.shuffle(self.choices)
-
