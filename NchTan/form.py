@@ -1,5 +1,6 @@
 
 from __future__ import annotations
+import random
 
 
 class QuestionDataSaver:
@@ -35,3 +36,9 @@ class QuestionDataSaver:
 
         if not self.is_each_item_in_arr(array_1, array_2):
             raise ValueError(message)
+
+    def shuffle_choices(self):
+        """this method shuffle the choices if it is
+        needed"""
+        random.shuffle(self.choices)
+

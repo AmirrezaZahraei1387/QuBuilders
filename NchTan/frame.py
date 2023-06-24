@@ -10,6 +10,7 @@ class NchTanQ(QuestionDataSaver):
     """NchTanQ"""
 
     def __str__(self):
+
         complete_question = ""
         complete_question += self.question_title
 
@@ -25,6 +26,10 @@ class NchTanQ(QuestionDataSaver):
 
     def __eq__(self, other: list | set | tuple):
 
+        self.is_present(other, self.choices, "your answer", "choices")
+        return self.is_each_item_in_arr(self.answers, other)
+
+    def __req__(self, other: list | set | tuple):
         self.is_present(other, self.choices, "your answer", "choices")
         return self.is_each_item_in_arr(self.answers, other)
 
