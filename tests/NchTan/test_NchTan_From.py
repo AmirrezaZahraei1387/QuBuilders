@@ -1,26 +1,24 @@
-
 import unittest
 from QuBu.NchTan import QuestionDataSaver
 
 
 class test(unittest.TestCase):
-
     question = QuestionDataSaver("what is the synonym of stupid?", ["idiot", "donkey"],
-                          ["idiot", "donkey", "good", "awsome"],
-                          "stupid means some one with unruly behaviors",
-                          "this is for testing the vocab of students")
+                                 ["idiot", "donkey", "good", "awsome"],
+                                 "stupid means some one with unruly behaviors",
+                                 "this is for testing the vocab of students")
 
     def test_instanting(self):
 
         try:
             qu = QuestionDataSaver("what is the synonym of stupid?", ["idiot", "donkey"],
-                              ["idiot", "donkey", "good", "awsome"],
-                              "stupid means some one with unruly behaviors",
-                              "this is for testing the vocab of students")
+                                   ["idiot", "donkey", "good", "awsome"],
+                                   "stupid means some one with unruly behaviors",
+                                   "this is for testing the vocab of students")
         except ValueError:
             b = False
         else:
-            b= True
+            b = True
 
         self.assertEqual(b, True)
 
@@ -43,7 +41,3 @@ class test(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
-
-
-

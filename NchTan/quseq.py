@@ -20,6 +20,7 @@ class QuSeq:
         if not isinstance(question, QuestionDataSaver):
             raise TypeError("the given object is not QuestionDataSaver object.")
         self.__questions.append(question)
+
         return self
 
     def __getitem__(self, key: int):
