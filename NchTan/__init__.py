@@ -1,3 +1,3 @@
 
 from NchTan.form import QuestionDataSaver
-from frame import NchTanQ
+from NchTan.frame import NchTanQ
