@@ -10,17 +10,17 @@ from form import QuestionDataSaver
 class QuSeq:
     """QuSeq"""
 
-    __questions: list
-
     def __init__(self, name_quseq: str, descriptions_quseq: str):
         self.name_QuSeq = name_quseq
         self.descriptions_QuSeq = descriptions_quseq
+        self.__questions = []
 
     def __iadd__(self, question: QuestionDataSaver):
 
         if not isinstance(question, QuestionDataSaver):
             raise TypeError("the given object is not QuestionDataSaver object.")
         self.__questions.append(question)
+        return self
 
     def __getitem__(self, key: int):
         return self.__questions[key]
@@ -53,9 +53,5 @@ class QuSeq:
             assert (isinstance(self[index], QuestionDataSaver))
             # all the items of __questions must be an instance of class QuestionDataSaver
             self[index].shuffle_choices()
-
-
-
-
 
 
