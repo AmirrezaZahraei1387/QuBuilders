@@ -41,7 +41,7 @@ class QuSeq:
 
             index = random.randint(0, len(self)-1)
             # all the items of __questions must be an instance of class QuestionDataSaver
-            assert (isinstance(self[index], QuestionDataSaver))
+            assert (isinstance(self[index], QuestionDataSaver), True)
             self[index].shuffle_choices()
 
     def shuffle_questions_choices_a(self):
@@ -50,8 +50,7 @@ class QuSeq:
 
         for index in range(len(self)):
 
-            assert (isinstance(self[index], QuestionDataSaver))
+            assert (isinstance(self[index], QuestionDataSaver), True)
             # all the items of __questions must be an instance of class QuestionDataSaver
             self[index].shuffle_choices()
-
 
