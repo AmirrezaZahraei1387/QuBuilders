@@ -1,8 +1,9 @@
 """in this code file we implement a way to save
-the n choice and t answer quetions and we create
+the n choice and t answer questions, and we create
 some logics to work with them"""
 
 from __future__ import annotations
+from form import QuestionDataSaver
 
 
 class NchTanQ(QuestionDataSaver):
@@ -23,4 +24,7 @@ class NchTanQ(QuestionDataSaver):
         return complete_question
 
     def __eq__(self, other: list | set | tuple):
-        pass
+
+        self.is_present(other, self.choices, "your answer", "choices")
+        return self.is_each_item_in_arr(self.answers, other)
+

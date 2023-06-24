@@ -1,11 +1,12 @@
+
 from __future__ import annotations
 
 
 class QuestionDataSaver:
 
     def __init__(self, question_title: str,
-                 choices: list | set | tuple,
                  answers: list | set | tuple,
+                 choices: list | set | tuple,
                  hints: str = "",
                  descriptions: str = ""):
 
