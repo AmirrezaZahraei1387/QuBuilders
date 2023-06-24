@@ -4,7 +4,7 @@ descriptions for them. The question sequence is just something to save
 more than one question but in a way to manage it better."""
 
 import random
-from form import QuestionDataSaver
+from QuBu.NchTan.form import QuestionDataSaver
 
 
 class QuSeq:
@@ -41,7 +41,7 @@ class QuSeq:
 
             index = random.randint(0, len(self)-1)
             # all the items of __questions must be an instance of class QuestionDataSaver
-            assert (isinstance(self[index], QuestionDataSaver), True)
+            assert isinstance(self[index], QuestionDataSaver)
             self[index].shuffle_choices()
 
     def shuffle_questions_choices_a(self):
@@ -50,7 +50,10 @@ class QuSeq:
 
         for index in range(len(self)):
 
-            assert (isinstance(self[index], QuestionDataSaver), True)
+            assert isinstance(self[index], QuestionDataSaver)
             # all the items of __questions must be an instance of class QuestionDataSaver
             self[index].shuffle_choices()
+
+
+
 
