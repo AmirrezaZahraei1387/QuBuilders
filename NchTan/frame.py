@@ -3,7 +3,7 @@ the n choice and t answer questions, and we create
 some logics to work with them"""
 
 from __future__ import annotations
-from form import QuestionDataSaver
+from NchTan.form import QuestionDataSaver
 
 
 class NchTanQ(QuestionDataSaver):
