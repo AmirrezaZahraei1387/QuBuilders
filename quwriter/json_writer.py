@@ -13,6 +13,7 @@ dir_name
 import NchTan
 from type_checker import check_type_question
 import json
+import os
 
 
 @check_type_question(NchTan.QuestionDataSaver)
@@ -30,3 +31,13 @@ def write_file(question, file_object):
     file_object.close()
 
 
+@check_type_question(NchTan.QuSeq)
+def write_files_all(questions, directory: str):
+    files_paths = os.listdir(directory)
+    if len(files_paths) != len(questions):
+        raise ValueError("the number of files and questions are not equal")
+
+    index = -1
+    for path in files_paths:
+        index += 1
+        write_file(questions[index], open(directory + path, 'w'))
