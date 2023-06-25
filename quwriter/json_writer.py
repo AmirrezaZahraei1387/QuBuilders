@@ -11,10 +11,13 @@ dir_name
 |___question_4.json
 |..."""
 import NchTan
+from type_checker import check_type_question
+import json
 
 
-def write_file(question: NchTan.QuestionDataSaver,
-               file_object):
-    pass
+@check_type_question(NchTan.QuestionDataSaver)
+def write_file(question,file_object):
+    print(json)
+
 
 
