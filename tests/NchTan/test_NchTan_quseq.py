@@ -1,5 +1,6 @@
-from QuBu.NchTan import QuSeq
-from QuBu.NchTan import QuestionDataSaver
+
+from NchTan import QuSeq
+from NchTan import QuestionDataSaver
 import unittest
 
 # creating a QuSeq object

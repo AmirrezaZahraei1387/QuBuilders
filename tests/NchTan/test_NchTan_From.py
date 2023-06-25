@@ -1,5 +1,5 @@
 import unittest
-from QuBu.NchTan import QuestionDataSaver
+from NchTan import QuestionDataSaver
 
 
 class test(unittest.TestCase):

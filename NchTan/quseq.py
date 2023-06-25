@@ -4,7 +4,7 @@ descriptions for them. The question sequence is just something to save
 more than one question but in a way to manage it better."""
 
 import random
-from QuBu.NchTan.form import QuestionDataSaver
+from NchTan.form import QuestionDataSaver
 
 
 class QuSeq:

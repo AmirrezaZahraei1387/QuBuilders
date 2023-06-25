@@ -1,3 +1,3 @@
 
-from QuBu.NchTan.form import QuestionDataSaver
-from QuBu.NchTan.quseq import QuSeq
+from NchTan.form import QuestionDataSaver
+from NchTan.quseq import QuSeq
