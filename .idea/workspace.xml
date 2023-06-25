@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the csv_writer.py is added">
-      <change afterPath="$PROJECT_DIR$/quwriter/type_checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="make better">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quwriter/csv_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/quwriter/csv_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quwriter/type_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/quwriter/type_checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +162,7 @@
       <workItem from="1687721159052" duration="25000" />
       <workItem from="1687721386054" duration="63000" />
       <workItem from="1687721521862" duration="1706000" />
+      <workItem from="1687729778820" duration="925000" />
     </task>
     <task id="LOCAL-00001" summary="the test file removed">
       <created>1687547726508</created>
@@ -374,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687722367968</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="the check_type_question is created">
+      <created>1687729910079</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1687729910079</updated>
+    </task>
+    <task id="LOCAL-00032" summary="make better">
+      <created>1687730013240</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687730013240</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,8 +406,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the NchTanQ class is created in frame.py" />
-    <MESSAGE value="the class NcchTanQ created and the needed info to run the lass added" />
     <MESSAGE value="the is_each_item_in_arr method created" />
     <MESSAGE value="a class for saving the data named QuestionDataSaver is created and the __init__  in NchTanQ is created" />
     <MESSAGE value="__str__ is created" />
@@ -417,7 +429,9 @@
     <MESSAGE value="the test is wriiten" />
     <MESSAGE value="the license is the MIT license" />
     <MESSAGE value="the csv_writer.py is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="the csv_writer.py is added" />
+    <MESSAGE value="the check_type_question is created" />
+    <MESSAGE value="make better" />
+    <option name="LAST_COMMIT_MESSAGE" value="make better" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
