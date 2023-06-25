@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the __init__.py for the quwriters is added">
-      <change beforePath="$PROJECT_DIR$/quwriter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/quwriter/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the __init__.py for the quwriters is written" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_json_loader.test.test_read_all_file">
     <configuration name="Python tests for test_json_loader.test.test_read_all_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +159,7 @@
       <workItem from="1687721386054" duration="63000" />
       <workItem from="1687721521862" duration="1706000" />
       <workItem from="1687729778820" duration="2463000" />
-      <workItem from="1687732317785" duration="1695000" />
+      <workItem from="1687732317785" duration="1726000" />
     </task>
     <task id="LOCAL-00001" summary="the test file removed">
       <created>1687547726508</created>
@@ -464,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687733921487</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="the __init__.py for the quwriters is written">
+      <created>1687734038441</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1687734038441</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the test_NchTan_From.py and test_NchTan_Frame.py are moved to another direct" />
     <MESSAGE value="the csv_loader is debbuged" />
     <MESSAGE value="json_loader is added" />
     <MESSAGE value="the data to test is created" />
@@ -507,7 +511,8 @@
     <MESSAGE value="the write_files_all is created" />
     <MESSAGE value="the folders for testing the quwriters is created" />
     <MESSAGE value="the __init__.py for the quwriters is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="the __init__.py for the quwriters is added" />
+    <MESSAGE value="the __init__.py for the quwriters is written" />
+    <option name="LAST_COMMIT_MESSAGE" value="the __init__.py for the quwriters is written" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
