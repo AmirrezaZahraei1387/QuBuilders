@@ -10,7 +10,8 @@ class test(unittest.TestCase):
         self.assertEqual(qu.answers == ["adison"], True)  # checking if the answer of the question will be true
 
     def test_read_all_file(self):
-
+        qus = quloaders.read_all_files("data_sample/eq/", "hello", "fffffff")
+        self.assertEqual(qus[1].answers == ["goodbye"], False)
 
 
 if __name__ == "__main__":
