@@ -32,4 +32,3 @@ def read_file(file_object, name: str, descr: str):
 
 
 
-
