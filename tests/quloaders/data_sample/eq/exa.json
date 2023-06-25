@@ -1,8 +1,8 @@
 
 {
-  "question_title": "ffffffff",
-  "answers": ["ff", "d"],
-  "choices": ["d", "ff"],
-  "hints": "hhhhhhhhhhh",
-  "descriptions": "jjjjjjjjjjjjjjjjjjjjj"
+  "question_title": "who is the inventor of lamp?",
+  "answers": ["adison"],
+  "choices": ["adison", "bill gates", "amir"],
+  "hints": "his name starts with  a",
+  "descriptions": "challenging the public knowledge"
 }
