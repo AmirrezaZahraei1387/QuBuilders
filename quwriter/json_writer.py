@@ -10,4 +10,11 @@ dir_name
 |___question_3.json
 |___question_4.json
 |..."""
+import NchTan
+
+
+def write_file(question: NchTan.QuestionDataSaver,
+               file_object):
+    pass
+
 

@@ -9,9 +9,8 @@ import NchTan
 import csv
 
 
-@check_type_question
-def csv_write(obj_question: NchTan.QuSeq,
-              file_obj):
+@check_type_question(type_=NchTan.QuSeq)
+def csv_write(obj_question, file_obj):
 
     writer = csv.writer(file_obj)
     for question in obj_question:
@@ -21,4 +20,3 @@ def csv_write(obj_question: NchTan.QuSeq,
                          question.choices,
                          question.hints,
                          question.descriptions])
-
