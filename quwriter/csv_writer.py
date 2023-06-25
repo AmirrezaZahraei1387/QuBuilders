@@ -14,3 +14,4 @@ def write(obj_question: NchTan.QuestionDataSaver| NchTan.QuSeq):
 
 
 
+

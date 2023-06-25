@@ -5,9 +5,9 @@ import NchTan
 
 def check_type_question(function):
     """this function will add the ability of checking """
-    def new_function(obj_question: NchTan.QuestionDataSaver| NchTan.QuSeq):
+    def new_function(obj_question: NchTan.QuestionDataSaver| NchTan.QuSeq, file_obj):
         if not isinstance(obj_question, (NchTan.QuestionDataSaver, NchTan.QuSeq)):
             raise TypeError("the type of the given object must be (NchTan.QuestionDataSaver, NchTan.QuSeq).")
 
-        return function(obj_question)
+        return function(obj_question, file_obj)
 
