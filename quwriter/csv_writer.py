@@ -20,3 +20,5 @@ def csv_write(obj_question, file_obj):
                          question.choices,
                          question.hints,
                          question.descriptions])
+
+    file_obj.close()

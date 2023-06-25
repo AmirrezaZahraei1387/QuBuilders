@@ -25,6 +25,7 @@ def read_file(file_object):
                                  data["choices"],
                                  data["hints"],
                                  data["descriptions"])
+    file_object.close()
     return question
 
 

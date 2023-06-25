@@ -16,8 +16,17 @@ import json
 
 
 @check_type_question(NchTan.QuestionDataSaver)
-def write_file(question,file_object):
-    print(json)
+def write_file(question, file_object):
+    json_obj = {
+        "question_title": question.question_title,
+        "answers": question.answers,
+        "choices": question.choices,
+        "hints": question.hints,
+        "descriptions": question.descriptions
+    }
 
+    json.dump(json_obj, file_object)
+
+    file_object.close()
 
 

@@ -28,6 +28,7 @@ def read_file(file_object, name: str, descr: str):
                                   eval(question[2]), question[3],
                                   question[4])
         obj += qu
+    file_object.close()
     return obj
 
 
