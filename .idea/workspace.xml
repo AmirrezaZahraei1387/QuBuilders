@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="merged">
+      <change beforePath="$PROJECT_DIR$/tests/quloaders/test_json_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quloaders/test_json_loader.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RcS5ShzqHPzikurVLUjRtRVVfU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Github Repos/QuBu/quloaders/data_sample/eq&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github Repos\QuBu\quloaders\data_sample\eq" />
+      <recent name="E:\Github Repos\QuBu\quloaders\data_sample\questions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github Repos\QuBu\tests\quloaders" />
+      <recent name="E:\Github Repos\QuBu\quloaders\data_sample\eq" />
+      <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_NchTan_quseq.py">
+    <configuration name="Python tests for test_json_loader.test.test_read_all_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_json_loader.test.test_read_all_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_NchTan_From.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/NchTan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/NchTan/test_NchTan_From.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_NchTan_quseq.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/NchTan" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/NchTan/test_NchTan_quseq.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_csv_loader.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/quloaders/test_csv_loader.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_json_loader.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/quloaders/test_json_loader.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_NchTan_quseq.py" />
+        <item itemvalue="Python tests.Python tests in test_NchTan_From.py" />
+        <item itemvalue="Python tests.Python tests in test_json_loader.py" />
+        <item itemvalue="Python tests.Python tests in test_csv_loader.py" />
+        <item itemvalue="Python tests.Python tests for test_json_loader.test.test_read_all_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="" />
+      <created>1687547695056</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687547695056</updated>
+      <workItem from="1687547697582" duration="312000" />
+      <workItem from="1687559256290" duration="2310000" />
+      <workItem from="1687577724302" duration="4288000" />
+      <workItem from="1687657619803" duration="27000" />
+      <workItem from="1687657864992" duration="2021000" />
+      <workItem from="1687662273706" duration="3231000" />
+      <workItem from="1687720734819" duration="215000" />
+      <workItem from="1687721159052" duration="25000" />
+      <workItem from="1687721386054" duration="63000" />
+      <workItem from="1687721521862" duration="356000" />
+    </task>
+    <task id="LOCAL-00001" summary="the test file removed">
+      <created>1687547726508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687547726508</updated>
+    </task>
+    <task id="LOCAL-00002" summary="frame.py is created">
+      <created>1687547803129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687547803129</updated>
+    </task>
+    <task id="LOCAL-00003" summary="the NchTanQ class is created in frame.py">
+      <created>1687547974355</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687547974355</updated>
+    </task>
+    <task id="LOCAL-00004" summary="the class NcchTanQ created and the needed info to run the lass added">
+      <created>1687560020654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687560020654</updated>
+    </task>
+    <task id="LOCAL-00005" summary="the is_each_item_in_arr method created">
+      <created>1687560378937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687560378937</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a class for saving the data named QuestionDataSaver is created and the __init__  in NchTanQ is created">
+      <created>1687561004734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687561004734</updated>
+    </task>
+    <task id="LOCAL-00007" summary="__str__ is created">
+      <created>1687561573925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687561573925</updated>
+    </task>
+    <task id="LOCAL-00008" summary="the form is created and the questiondatasaver class is changed">
+      <created>1687578913201</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687578913201</updated>
+    </task>
+    <task id="LOCAL-00009" summary="the __eq__ function is overloaded">
+      <created>1687579382491</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687579382491</updated>
+    </task>
+    <task id="LOCAL-00010" summary="the __init__ is added">
+      <created>1687579950662</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687579950662</updated>
+    </task>
+    <task id="LOCAL-00011" summary="the files are added to the __init__">
+      <created>1687580060590</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687580060590</updated>
+    </task>
+    <task id="LOCAL-00012" summary="the tests for Form class created">
+      <created>1687580132165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687580132165</updated>
+    </task>
+    <task id="LOCAL-00013" summary="the __init__ debuging">
+      <created>1687580815572</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687580815572</updated>
+    </task>
+    <task id="LOCAL-00014" summary="the __init__ debuging">
+      <created>1687580846548</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687580846548</updated>
+    </task>
+    <task id="LOCAL-00015" summary="the __init__ debuging">
+      <created>1687580893590</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687580893590</updated>
+    </task>
+    <task id="LOCAL-00016" summary="the test for test_NchTan_From.py is created">
+      <created>1687581363876</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687581363876</updated>
+    </task>
+    <task id="LOCAL-00017" summary="the test for test_NchTan_Frame.py is created">
+      <created>1687581919222</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687581919222</updated>
+    </task>
+    <task id="LOCAL-00018" summary="the test_NchTan_From.py and test_NchTan_Frame.py are moved to another direct">
+      <created>1687582002740</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1687582002740</updated>
+    </task>
+    <task id="LOCAL-00019" summary="the csv_loader is debbuged">
+      <created>1687662712188</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1687662712188</updated>
+    </task>
+    <task id="LOCAL-00020" summary="json_loader is added">
+      <created>1687662771337</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687662771337</updated>
+    </task>
+    <task id="LOCAL-00021" summary="the data to test is created">
+      <created>1687663121531</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687663121531</updated>
+    </task>
+    <task id="LOCAL-00022" summary="the json_loader is created">
+      <created>1687664796337</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687664796337</updated>
+    </task>
+    <task id="LOCAL-00023" summary="the __init__.py is added">
+      <created>1687664906242</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687664906242</updated>
+    </task>
+    <task id="LOCAL-00024" summary="the csv loader is added and the tests are more mening full">
+      <created>1687665282121</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1687665282121</updated>
+    </task>
+    <task id="LOCAL-00025" summary="some codes added :)">
+      <created>1687665518208</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687665518208</updated>
+    </task>
+    <task id="LOCAL-00026" summary="some codes added :)">
+      <created>1687720982600</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687720982600</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the test file removed" />
+    <MESSAGE value="frame.py is created" />
+    <MESSAGE value="the NchTanQ class is created in frame.py" />
+    <MESSAGE value="the class NcchTanQ created and the needed info to run the lass added" />
+    <MESSAGE value="the is_each_item_in_arr method created" />
+    <MESSAGE value="a class for saving the data named QuestionDataSaver is created and the __init__  in NchTanQ is created" />
+    <MESSAGE value="__str__ is created" />
+    <MESSAGE value="the form is created and the questiondatasaver class is changed" />
+    <MESSAGE value="the __eq__ function is overloaded" />
+    <MESSAGE value="the __init__ is added" />
+    <MESSAGE value="the files are added to the __init__" />
+    <MESSAGE value="the tests for Form class created" />
+    <MESSAGE value="the __init__ debuging" />
+    <MESSAGE value="the test for test_NchTan_From.py is created" />
+    <MESSAGE value="the test for test_NchTan_Frame.py is created" />
+    <MESSAGE value="the test_NchTan_From.py and test_NchTan_Frame.py are moved to another direct" />
+    <MESSAGE value="the csv_loader is debbuged" />
+    <MESSAGE value="json_loader is added" />
+    <MESSAGE value="the data to test is created" />
+    <MESSAGE value="the json_loader is created" />
+    <MESSAGE value="the __init__.py is added" />
+    <MESSAGE value="the csv loader is added and the tests are more mening full" />
+    <MESSAGE value="some codes added :)" />
+    <MESSAGE value="merged" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
+    <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687721837503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/NchTan" />
+    <SUITE FILE_PATH="coverage/QuBu$frame.coverage" NAME="frame Coverage Results" MODIFIED="1687579585966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
+    <SUITE FILE_PATH="coverage/QuBu$quseq.coverage" NAME="quseq Coverage Results" MODIFIED="1687658211353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
+    <SUITE FILE_PATH="coverage/QuBu$json_loader.coverage" NAME="json_loader Coverage Results" MODIFIED="1687664660612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
+    <SUITE FILE_PATH="coverage/QuBu$form.coverage" NAME="form Coverage Results" MODIFIED="1687658213524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
+  </component>
+</project>
