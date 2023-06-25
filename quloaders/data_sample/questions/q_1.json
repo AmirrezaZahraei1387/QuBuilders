@@ -1,8 +1,0 @@
-
-{
-  "question_title": "what is hello in french?",
-  "answers": ["bonjour", "salute"],
-  "choices": ["bonjour", "salute", "bye", "i do not know"],
-  "hints": "this is a french question :)",
-  "descriptions": "answer :{"
-}
