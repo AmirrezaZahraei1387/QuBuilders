@@ -11,3 +11,5 @@ def check_type_question(function):
 
         return function(obj_question, file_obj)
 
+    return new_function
+

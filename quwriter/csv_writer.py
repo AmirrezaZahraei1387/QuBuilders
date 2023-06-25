@@ -11,7 +11,7 @@ import csv
 
 @check_type_question
 def csv_write(obj_question: NchTan.QuSeq,
-          file_obj):
+              file_obj):
 
     writer = csv.writer(file_obj)
     for question in obj_question:
