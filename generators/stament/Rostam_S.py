@@ -18,7 +18,9 @@ class State:
 
     __frame: str
 
-    def __init__(self, frame: str, values_formatting: list, function_solving):
+    def __init__(self, frame: str,
+                 values_formatting: list,
+                 function_solving, is_allowed_same):
 
         if not isfunction(function_solving):
             raise TypeError("the value given as a function is not a function")
@@ -32,6 +34,36 @@ class State:
         self.frame = frame
         self.values_formatting = values_formatting
         self.function_solving = function_solving
+        self.is_allowed_same = is_allowed_same
+        self.length = len(self.values_formatting)
+
+    def pick_random(self):
+
+        values = []
+        for index in range(self.length):
+
+            value = random.choice(self.values_formatting[index])
+            values.append(value)
+
+            if self.is_allowed_same:
+                return self.values_formatting[index].remove(value)
+
+    def form(self):
+
+        # if one of the values for arguments was length 0 it means it is ended
+        if self.is_allowed_same:
+            for i in self.values_formatting:
+                if len(i) ==0:
+                    return "NVQ"
+
+        values = self.pick_random()
+        frame = self.frame.format(*values)
+        answer = self.function_solving(*values)
+        return frame, answer
+
+
+
+
 
 
 

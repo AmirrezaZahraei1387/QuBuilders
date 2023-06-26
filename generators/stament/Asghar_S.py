@@ -43,8 +43,7 @@ class State:
 
         self.__is_allowed_same = is_allowed_same
 
-    @property
-    def frame(self):
+    def pick_random(self):
 
         index = random.randint(0, self.length - 1)
         statement_com = self.statement_coms[index]
@@ -53,6 +52,16 @@ class State:
         if not self.__is_allowed_same:
             self.statement_keys.remove(statement_key)
             self.statement_coms.remove(statement_com)
+
+        return statement_com, statement_key
+
+    @property
+    def frame(self):
+
+        if len(self.statement_keys) == 0:
+            return "NVQ"
+
+        statement_com, statement_key = self.pick_random()
 
         frame_state = self.__Frame.format(*statement_com)
         return frame_state, statement_key
