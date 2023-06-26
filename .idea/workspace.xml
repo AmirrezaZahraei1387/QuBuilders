@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the __init__.py for the quwriters is written" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the readme file is removed to add it from github">
+      <change afterPath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,6 +163,8 @@
       <workItem from="1687721521862" duration="1706000" />
       <workItem from="1687729778820" duration="2463000" />
       <workItem from="1687732317785" duration="1726000" />
+      <workItem from="1687734069409" duration="172000" />
+      <workItem from="1687805147331" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="the test file removed">
       <created>1687547726508</created>
@@ -469,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687734038441</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="the readme file is removed to add it from github">
+      <created>1687734100581</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1687734100581</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the csv_loader is debbuged" />
     <MESSAGE value="json_loader is added" />
     <MESSAGE value="the data to test is created" />
     <MESSAGE value="the json_loader is created" />
@@ -512,7 +523,8 @@
     <MESSAGE value="the folders for testing the quwriters is created" />
     <MESSAGE value="the __init__.py for the quwriters is added" />
     <MESSAGE value="the __init__.py for the quwriters is written" />
-    <option name="LAST_COMMIT_MESSAGE" value="the __init__.py for the quwriters is written" />
+    <MESSAGE value="the readme file is removed to add it from github" />
+    <option name="LAST_COMMIT_MESSAGE" value="the readme file is removed to add it from github" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
