@@ -5,6 +5,7 @@ or some words is changed in these cases we can use this statement
 creator to create these kinds of things"""
 import random
 from inspect import isfunction
+from inspect import signature
 
 
 class State:
@@ -21,10 +22,18 @@ class State:
 
         if not isfunction(function_solving):
             raise TypeError("the value given as a function is not a function")
+        else:
+            sin = signature(function_solving)
+            number_arg = len(sin.parameters)
+            if number_arg != len(values_formatting):
+                raise ValueError("""the number of parameters of function does not 
+                match the number values for formatting""")
 
         self.frame = frame
         self.values_formatting = values_formatting
         self.function_solving = function_solving
+
+
 
 
 
