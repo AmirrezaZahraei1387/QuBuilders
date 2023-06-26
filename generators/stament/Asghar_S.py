@@ -33,15 +33,20 @@ class State:
         else:
             raise ValueError("the mode can only be value or key given "+str(mode))
 
-        if not (len(self.statement_keys) == len(self.statement_coms)):
+        self.length = len(self.statement_keys)
+
+        if not (self.length == len(self.statement_coms)):
             raise ValueError("the length of keys and values of the data didn't match")
 
     @property
     def frame(self):
 
-        statement_key = random.choice(self.statement_keys)
+        index = random.randint(0, self.length - 1)
+        statement_com = self.statement_coms[index]
+        statement_key = self.statement_keys[index]
 
-
+        frame_state = self.__Frame.format(*statement_com)
+        return frame_state, statement_key
 
     @frame.setter
     def frame(self, frame: str):
