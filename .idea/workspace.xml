@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the __init__ of class State is crated">
-      <change beforePath="$PROJECT_DIR$/generators/stament/Rostam_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/stament/Rostam_S.py" afterDir="false" />
-    </list>
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the Rostam_S.py is tested" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,28 +162,7 @@
       <workItem from="1687732317785" duration="1726000" />
       <workItem from="1687734069409" duration="172000" />
       <workItem from="1687805147331" duration="265000" />
-      <workItem from="1687806245705" duration="4659000" />
-    </task>
-    <task id="LOCAL-00004" summary="the class NcchTanQ created and the needed info to run the lass added">
-      <created>1687560020654</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1687560020654</updated>
-    </task>
-    <task id="LOCAL-00005" summary="the is_each_item_in_arr method created">
-      <created>1687560378937</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1687560378937</updated>
-    </task>
-    <task id="LOCAL-00006" summary="a class for saving the data named QuestionDataSaver is created and the __init__  in NchTanQ is created">
-      <created>1687561004734</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1687561004734</updated>
+      <workItem from="1687806245705" duration="6322000" />
     </task>
     <task id="LOCAL-00007" summary="__str__ is created">
       <created>1687561573925</created>
@@ -509,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687810915883</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="the __init__ of class State is got better by adding some checking">
+      <created>1687811231508</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1687811231508</updated>
+    </task>
+    <task id="LOCAL-00054" summary="the class state seem done">
+      <created>1687812157610</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1687812157610</updated>
+    </task>
+    <task id="LOCAL-00055" summary="the Rostam_S.py is tested">
+      <created>1687812600760</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1687812600760</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,9 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the test is wriiten" />
-    <MESSAGE value="the license is the MIT license" />
-    <MESSAGE value="the csv_writer.py is added" />
     <MESSAGE value="the check_type_question is created" />
     <MESSAGE value="make better" />
     <MESSAGE value="csv_write is created" />
@@ -552,13 +547,17 @@
     <MESSAGE value="the Asghar_S.py is debugged" />
     <MESSAGE value="the option for same questions or no added" />
     <MESSAGE value="the __init__ of class State is crated" />
-    <option name="LAST_COMMIT_MESSAGE" value="the __init__ of class State is crated" />
+    <MESSAGE value="the __init__ of class State is got better by adding some checking" />
+    <MESSAGE value="the class state seem done" />
+    <MESSAGE value="the Rostam_S.py is tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="the Rostam_S.py is tested" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
     <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687807942505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/quloaders" />
     <SUITE FILE_PATH="coverage/QuBu$Asghar_S.coverage" NAME="Asghar_S Coverage Results" MODIFIED="1687809949249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$frame.coverage" NAME="frame Coverage Results" MODIFIED="1687579585966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
+    <SUITE FILE_PATH="coverage/QuBu$Rostam_S.coverage" NAME="Rostam_S Coverage Results" MODIFIED="1687812528482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$json_writer.coverage" NAME="json_writer Coverage Results" MODIFIED="1687733685603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />
     <SUITE FILE_PATH="coverage/QuBu$quseq.coverage" NAME="quseq Coverage Results" MODIFIED="1687658211353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
     <SUITE FILE_PATH="coverage/QuBu$csv_writer.coverage" NAME="csv_writer Coverage Results" MODIFIED="1687732567930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />
