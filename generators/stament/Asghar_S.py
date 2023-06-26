@@ -5,9 +5,12 @@ given from the user or anyone using the code. For example
 frame can be like the following.
 What is {} in Farsi?
 Afterward the code will need a data like the following:
-{("hello"):["salam"], ("how are you"):["khobi"], ("goodbye"): ["khoda hafez"]}
-then you have to say from which part(keys or values) we should pick"""
+{("hello", ):["salam"], ("how are you", ):["khobi"], ("goodbye", ): ["khoda hafez"]}
+then you have to say from which part(keys or values) we should pick
+important note: pass the keys as tuples and add a , at the end otherwise
+unexpected result will come up"""
 import random
+
 
 class State:
     """mode defines from keys or values we should pick.
@@ -44,22 +47,12 @@ class State:
         index = random.randint(0, self.length - 1)
         statement_com = self.statement_coms[index]
         statement_key = self.statement_keys[index]
-
         frame_state = self.__Frame.format(*statement_com)
         return frame_state, statement_key
 
     @frame.setter
     def frame(self, frame: str):
         self.__Frame = frame
-
-
-
-
-
-
-
-
-
 
 
 
