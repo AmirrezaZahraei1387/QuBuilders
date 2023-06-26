@@ -34,7 +34,7 @@ class State:
         self.frame = frame
         self.values_formatting = values_formatting
         self.function_solving = function_solving
-        self.is_allowed_same = is_allowed_same
+        self.__is_allowed_same = is_allowed_same
         self.length = len(self.values_formatting)
 
     def pick_random(self):
@@ -45,31 +45,19 @@ class State:
             value = random.choice(self.values_formatting[index])
             values.append(value)
 
-            if self.is_allowed_same:
-                return self.values_formatting[index].remove(value)
+            if not self.__is_allowed_same:
+                self.values_formatting[index].remove(value)
+        return values
 
     def form(self):
 
         # if one of the values for arguments was length 0 it means it is ended
-        if self.is_allowed_same:
+        if not self.__is_allowed_same:
             for i in self.values_formatting:
-                if len(i) ==0:
+                if len(i) == 0:
                     return "NVQ"
 
         values = self.pick_random()
         frame = self.frame.format(*values)
         answer = self.function_solving(*values)
         return frame, answer
-
-
-
-
-
-
-
-
-
-
-
-
-
