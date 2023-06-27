@@ -2,6 +2,7 @@
 a question that the statement will have some different conditions.
 For, example it can be true or false so the statement mode is true or
 false"""
+import random
 
 
 class ModeState:
@@ -16,4 +17,8 @@ class ModeState:
         self.modes = modes  # these modes are the modes of each statement
         self.modes_in = set(self.modes)  # modes_in is the all possible modes
         self.is_allowed_same = is_allowed_same
+
+
+
+
 
