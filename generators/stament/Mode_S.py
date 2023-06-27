@@ -2,10 +2,10 @@
 a question that the statement will have some different conditions.
 For, example it can be true or false so the statement mode is true or
 false"""
-from checker import check_length
+from checker import Check_Length
 
 
-class ModeState(check_length):
+class ModeState(Check_Length):
     """the statements must be dictionary. the dictionary
     must be like the following:
     [statement_1, statement_2, statement_3, statement_4]

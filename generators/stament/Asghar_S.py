@@ -9,10 +9,10 @@ Afterward the code will need a data like the following:
 then you have to say from which part(keys or values) we should pick
 important note: pass the keys as tuples and add a ',' at the end otherwise
 unexpected result will come up"""
-from checker import check_length
+from checker import Check_Length
 
 
-class AsgharState(check_length):
+class AsgharState(Check_Length):
     """mode defines from keys or values we should pick.
     key means key
     value means value"""

@@ -5,7 +5,7 @@ is created."""
 import random
 
 
-class check_length:
+class Check_Length:
     length: int
 
     def __init__(self, array_1: list, array_2: list, is_allowed_same: bool):
