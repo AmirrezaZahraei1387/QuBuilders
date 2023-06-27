@@ -12,13 +12,14 @@ unexpected result will come up"""
 import random
 
 
-class State:
+class AsgharState:
     """mode defines from keys or values we should pick.
     key means key
     value means value"""
     __Frame: str
     statement_coms: list
     statement_keys: list
+    length:int
 
     def __init__(self, data_question: dict, mode: str, is_allowed_same: bool):
         def save(value_1, value_2):
@@ -36,12 +37,17 @@ class State:
         else:
             raise ValueError("the mode can only be value or key given " + str(mode))
 
+        self.check_length_save()
+
+        self.__is_allowed_same = is_allowed_same
+
+    def check_length_save(self):
+        """this method will check the length of statement_keys and
+        statement_coms, and it will save one of them"""
         self.length = len(self.statement_keys)
 
         if not (self.length == len(self.statement_coms)):
             raise ValueError("the length of keys and values of the data didn't match")
-
-        self.__is_allowed_same = is_allowed_same
 
     def pick_random(self):
 

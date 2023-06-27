@@ -8,7 +8,7 @@ from inspect import isfunction
 from inspect import signature
 
 
-class State:
+class RostamState:
     """the frame is the frame for making the questions
     and values_formatting is th list of lists of values for
     putting in the frame to make some sort of statement
