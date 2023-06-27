@@ -22,6 +22,20 @@ class test(unittest.TestCase):
 
         self.assertEqual(b, True)
 
+    def test_instanting_1(self):
+
+        try:
+            qu = QuestionDataSaver("what is the synonym of stupid?", ["idiot", "don"],
+                                   ["idiot", "donkey", "good", "awsome"],
+                                   "stupid means some one with unruly behaviors",
+                                   "this is for testing the vocab of students")
+        except ValueError:
+            b = True
+        else:
+            b = False
+
+        self.assertEqual(b, True)
+
     def test_is_each_item_in_array(self):
 
         b = self.question.is_each_item_in_arr(self.question.answers, self.question.choices)

@@ -54,7 +54,3 @@ class QuSeq:
             assert isinstance(self[index], QuestionDataSaver)
             # all the items of __questions must be an instance of class QuestionDataSaver
             self[index].shuffle_choices()
-
-
-
-
