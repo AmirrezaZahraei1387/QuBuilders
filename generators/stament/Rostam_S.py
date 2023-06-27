@@ -20,7 +20,7 @@ class RostamState:
 
     def __init__(self, frame: str,
                  values_formatting: list,
-                 function_solving, is_allowed_same):
+                 function_solving, is_allowed_same: bool):
 
         if not isfunction(function_solving):
             raise TypeError("the value given as a function is not a function")
@@ -31,11 +31,21 @@ class RostamState:
                 raise ValueError("""the number of parameters of function does not 
                 match the number values for formatting""")
 
-        self.frame = frame
         self.values_formatting = values_formatting
+        self.check_lengths()  # check if all the lists inside value_formatting have the same
+        # length
+        self.frame = frame
         self.function_solving = function_solving
         self.__is_allowed_same = is_allowed_same
         self.length = len(self.values_formatting)
+
+    def check_lengths(self):
+
+        len_init_c = len(self.values_formatting[0])
+
+        for array in self.values_formatting:
+            if len(array) != len_init_c:
+                raise ValueError("the length of arrays inside the values_formatting are not the same")
 
     def pick_random(self):
 
@@ -52,10 +62,8 @@ class RostamState:
     def form(self):
 
         # if one of the values for arguments was length 0 it means it is ended
-        if not self.__is_allowed_same:
-            for i in self.values_formatting:
-                if len(i) == 0:
-                    return "NVQ"
+        if len(self.values_formatting[0]):
+            return "NVQ"
 
         values = self.pick_random()
         frame = self.frame.format(*values)
