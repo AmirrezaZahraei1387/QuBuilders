@@ -23,3 +23,4 @@ class ModeState(Check_Length):
             return "NVQ"
 
         return self.pick_random()
+

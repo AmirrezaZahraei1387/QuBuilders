@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the codes are checked">
-      <change beforePath="$PROJECT_DIR$/generators/stament/Mode_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/stament/Mode_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/stament/checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/generators/stament/checker.py" afterDir="false" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="unneccesry codes are removed from Asghar_S.py">
+      <change beforePath="$PROJECT_DIR$/quwriter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/quwriter/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,28 +167,7 @@
       <workItem from="1687805147331" duration="265000" />
       <workItem from="1687806245705" duration="6584000" />
       <workItem from="1687824017287" duration="2074000" />
-      <workItem from="1687879691634" duration="3339000" />
-    </task>
-    <task id="LOCAL-00014" summary="the __init__ debuging">
-      <created>1687580846548</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1687580846548</updated>
-    </task>
-    <task id="LOCAL-00015" summary="the __init__ debuging">
-      <created>1687580893590</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1687580893590</updated>
-    </task>
-    <task id="LOCAL-00016" summary="the test for test_NchTan_From.py is created">
-      <created>1687581363876</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1687581363876</updated>
+      <workItem from="1687879691634" duration="4241000" />
     </task>
     <task id="LOCAL-00017" summary="the test for test_NchTan_Frame.py is created">
       <created>1687581919222</created>
@@ -513,7 +491,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687882765397</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="the ModeState is created">
+      <created>1687883426130</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1687883426130</updated>
+    </task>
+    <task id="LOCAL-00064" summary="the check_length class is renamed into Check_Length">
+      <created>1687883563942</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1687883563942</updated>
+    </task>
+    <task id="LOCAL-00065" summary="unneccesry codes are removed from Asghar_S.py">
+      <created>1687883878341</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1687883878342</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,9 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the formd is added" />
-    <MESSAGE value="the form is created" />
-    <MESSAGE value="the option of closing files is added to all loaders and writers" />
     <MESSAGE value="the write_files_all is created" />
     <MESSAGE value="the folders for testing the quwriters is created" />
     <MESSAGE value="the __init__.py for the quwriters is added" />
@@ -556,13 +552,17 @@
     <MESSAGE value="__init__ created" />
     <MESSAGE value="a new class named check_length is added to avoid same codes" />
     <MESSAGE value="the codes are checked" />
-    <option name="LAST_COMMIT_MESSAGE" value="the codes are checked" />
+    <MESSAGE value="the ModeState is created" />
+    <MESSAGE value="the check_length class is renamed into Check_Length" />
+    <MESSAGE value="unneccesry codes are removed from Asghar_S.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="unneccesry codes are removed from Asghar_S.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
     <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687881613038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/NchTan" />
     <SUITE FILE_PATH="coverage/QuBu$Asghar_S.coverage" NAME="Asghar_S Coverage Results" MODIFIED="1687882661762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$frame.coverage" NAME="frame Coverage Results" MODIFIED="1687579585966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
+    <SUITE FILE_PATH="coverage/QuBu$Mode_S.coverage" NAME="Mode_S Coverage Results" MODIFIED="1687883344163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$Rostam_S.coverage" NAME="Rostam_S Coverage Results" MODIFIED="1687812528482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$json_writer.coverage" NAME="json_writer Coverage Results" MODIFIED="1687733685603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />
     <SUITE FILE_PATH="coverage/QuBu$quseq.coverage" NAME="quseq Coverage Results" MODIFIED="1687658211353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
