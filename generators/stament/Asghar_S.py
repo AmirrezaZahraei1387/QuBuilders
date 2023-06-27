@@ -56,4 +56,3 @@ class AsgharState(check_length):
     @frame.setter
     def frame(self, frame_: str):
         self.__Frame = frame_
-
