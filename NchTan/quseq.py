@@ -10,7 +10,7 @@ from NchTan.form import QuestionDataSaver
 class QuSeq:
     """QuSeq"""
 
-    def __init__(self, name_quseq: str, descriptions_quseq: str):
+    def __init__(self, name_quseq: str= "", descriptions_quseq: str= ""):
         self.name_QuSeq = name_quseq
         self.descriptions_QuSeq = descriptions_quseq
         self.__questions = []

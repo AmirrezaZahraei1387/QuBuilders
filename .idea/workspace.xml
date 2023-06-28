@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="unneccesry codes are removed from Asghar_S.py">
-      <change beforePath="$PROJECT_DIR$/quwriter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/quwriter/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_json_loader.test.test_read_all_file">
     <configuration name="Python tests for test_json_loader.test.test_read_all_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,14 +167,9 @@
       <workItem from="1687805147331" duration="265000" />
       <workItem from="1687806245705" duration="6584000" />
       <workItem from="1687824017287" duration="2074000" />
-      <workItem from="1687879691634" duration="4241000" />
-    </task>
-    <task id="LOCAL-00017" summary="the test for test_NchTan_Frame.py is created">
-      <created>1687581919222</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1687581919222</updated>
+      <workItem from="1687879691634" duration="4597000" />
+      <workItem from="1687884721744" duration="62000" />
+      <workItem from="1687900023461" duration="1000" />
     </task>
     <task id="LOCAL-00018" summary="the test_NchTan_From.py and test_NchTan_Frame.py are moved to another direct">
       <created>1687582002740</created>
@@ -512,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687883878342</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="unneccesry codes are removed from Asghar_S.py">
+      <created>1687884311257</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1687884311257</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
