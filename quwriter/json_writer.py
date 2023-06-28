@@ -11,7 +11,7 @@ dir_name
 |___question_4.json
 |..."""
 import NchTan
-from type_checker import check_type_question
+from quwriter.type_checker import check_type_question
 import json
 import os
 

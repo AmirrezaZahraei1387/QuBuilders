@@ -4,7 +4,7 @@ csv will be:
 question_title; answers; choices; hints; descriptions
  and the delimiter of csv file is ;"""
 
-from type_checker import check_type_question
+from quwriter.type_checker import check_type_question
 import NchTan
 import csv
 
