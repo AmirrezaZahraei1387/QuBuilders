@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the Rostam_Q.py is created and we changed the descriptions and name to optional argv">
-      <change afterPath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/questions/Rostam_Q.py" beforeDir="false" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="a test for type_checker is created and some deubng">
+      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_json_loader.test.test_read_all_file">
+  <component name="RunManager">
     <configuration name="Python tests for test_json_loader.test.test_read_all_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_NchTan_From.py" />
         <item itemvalue="Python tests.Python tests for test_json_loader.test.test_read_all_file" />
+        <item itemvalue="Python tests.Python tests in test_NchTan_From.py" />
         <item itemvalue="Python tests.Python tests in test_NchTan_quseq.py" />
         <item itemvalue="Python tests.Python tests in test_json_loader.py" />
         <item itemvalue="Python tests.Python tests in test_csv_loader.py" />
@@ -171,14 +171,7 @@
       <workItem from="1687879691634" duration="4597000" />
       <workItem from="1687884721744" duration="62000" />
       <workItem from="1687900023461" duration="1000" />
-      <workItem from="1687915335686" duration="1087000" />
-    </task>
-    <task id="LOCAL-00019" summary="the csv_loader is debbuged">
-      <created>1687662712188</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1687662712188</updated>
+      <workItem from="1687915335686" duration="1661000" />
     </task>
     <task id="LOCAL-00020" summary="json_loader is added">
       <created>1687662771337</created>
@@ -516,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687915657755</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="a test for type_checker is created and some deubng">
+      <created>1687916843178</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1687916843178</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,7 +534,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the folders for testing the quwriters is created" />
     <MESSAGE value="the __init__.py for the quwriters is added" />
     <MESSAGE value="the __init__.py for the quwriters is written" />
     <MESSAGE value="the readme file is removed to add it from github" />
@@ -559,20 +558,22 @@
     <MESSAGE value="the check_length class is renamed into Check_Length" />
     <MESSAGE value="unneccesry codes are removed from Asghar_S.py" />
     <MESSAGE value="the Rostam_Q.py is created and we changed the descriptions and name to optional argv" />
-    <option name="LAST_COMMIT_MESSAGE" value="the Rostam_Q.py is created and we changed the descriptions and name to optional argv" />
+    <MESSAGE value="a test for type_checker is created and some deubng" />
+    <option name="LAST_COMMIT_MESSAGE" value="a test for type_checker is created and some deubng" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
-    <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687881613038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/NchTan" />
     <SUITE FILE_PATH="coverage/QuBu$Asghar_S.coverage" NAME="Asghar_S Coverage Results" MODIFIED="1687882661762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
-    <SUITE FILE_PATH="coverage/QuBu$frame.coverage" NAME="frame Coverage Results" MODIFIED="1687579585966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
-    <SUITE FILE_PATH="coverage/QuBu$Mode_S.coverage" NAME="Mode_S Coverage Results" MODIFIED="1687883344163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
+    <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687916776789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/quwriter" />
     <SUITE FILE_PATH="coverage/QuBu$Rostam_S.coverage" NAME="Rostam_S Coverage Results" MODIFIED="1687812528482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
-    <SUITE FILE_PATH="coverage/QuBu$json_writer.coverage" NAME="json_writer Coverage Results" MODIFIED="1687733685603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />
     <SUITE FILE_PATH="coverage/QuBu$quseq.coverage" NAME="quseq Coverage Results" MODIFIED="1687658211353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
     <SUITE FILE_PATH="coverage/QuBu$csv_writer.coverage" NAME="csv_writer Coverage Results" MODIFIED="1687732567930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />
-    <SUITE FILE_PATH="coverage/QuBu$checker.coverage" NAME="checker Coverage Results" MODIFIED="1687882893137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$json_loader.coverage" NAME="json_loader Coverage Results" MODIFIED="1687664660612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
+    <SUITE FILE_PATH="coverage/QuBu$frame.coverage" NAME="frame Coverage Results" MODIFIED="1687579585966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
+    <SUITE FILE_PATH="coverage/QuBu$Mode_S.coverage" NAME="Mode_S Coverage Results" MODIFIED="1687883344163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
+    <SUITE FILE_PATH="coverage/QuBu$json_writer.coverage" NAME="json_writer Coverage Results" MODIFIED="1687916761257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />
+    <SUITE FILE_PATH="coverage/QuBu$test_json_writer.coverage" NAME="test_json_writer Coverage Results" MODIFIED="1687916913995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/quwriter" />
+    <SUITE FILE_PATH="coverage/QuBu$checker.coverage" NAME="checker Coverage Results" MODIFIED="1687882893137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$form.coverage" NAME="form Coverage Results" MODIFIED="1687658213524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
   </component>
 </project>

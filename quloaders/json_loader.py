@@ -18,7 +18,7 @@ from NchTan import QuSeq, QuestionDataSaver
 import os
 
 
-def read_file(file_object):
+def read_file_j(file_object):
     data = json.load(file_object)
     question = QuestionDataSaver(data["question_title"],
                                  data["answers"],
@@ -29,7 +29,7 @@ def read_file(file_object):
     return question
 
 
-def read_all_files(path_directory: str, name: str, des: str):
+def read_all_files_j(path_directory: str, name: str, des: str):
     """this function will read all the json files in a directory.
     the file_object is the file you should open and give.
     the name is the name of your question sequence and des
@@ -40,7 +40,7 @@ def read_all_files(path_directory: str, name: str, des: str):
 
     for ra_path in files:
         path = path_directory+ra_path
-        qu = read_file(open(path, "r"))
+        qu = read_file_j(open(path, "r"))
         seq += qu
 
     return seq

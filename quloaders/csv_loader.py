@@ -14,7 +14,7 @@ import csv
 import NchTan as NT
 
 
-def read_file(file_object, name: str, descr: str):
+def read_file_c(file_object, name: str, descr: str):
     """the file_object is your file that you opened using
     open. name is the name for your question seq and descr is the
     descriptions for your question seq"""

@@ -36,3 +36,6 @@ class test(unittest.TestCase):
             a = True
 
         self.assertEqual(a, True)
+
+if __name__ == "__main__":
+    unittest.main()
