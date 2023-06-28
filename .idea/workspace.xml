@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="a test for type_checker is created and some deubng">
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" afterDir="false" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the test for quwritters is created">
+      <change afterPath="$PROJECT_DIR$/tests/generators/test_checkers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_json_writer.test.test_write_all">
     <configuration name="Python tests for test_json_loader.test.test_read_all_file" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +70,36 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_json_loader.test.test_read_all_file&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_json_writer.test.test_write_all" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quwriter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_json_writer.test.test_write_all&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_json_writer.test.test_write_single" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quwriter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_json_writer.test.test_write_single&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -104,43 +133,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_csv_loader.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QuBu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/quloaders/test_csv_loader.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_json_loader.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QuBu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/quloaders/test_json_loader.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_json_writer.test.test_write_all" />
+        <item itemvalue="Python tests.Python tests for test_json_writer.test.test_write_single" />
         <item itemvalue="Python tests.Python tests for test_json_loader.test.test_read_all_file" />
         <item itemvalue="Python tests.Python tests in test_NchTan_From.py" />
         <item itemvalue="Python tests.Python tests in test_NchTan_quseq.py" />
-        <item itemvalue="Python tests.Python tests in test_json_loader.py" />
-        <item itemvalue="Python tests.Python tests in test_csv_loader.py" />
       </list>
     </recent_temporary>
   </component>
@@ -171,21 +170,7 @@
       <workItem from="1687879691634" duration="4597000" />
       <workItem from="1687884721744" duration="62000" />
       <workItem from="1687900023461" duration="1000" />
-      <workItem from="1687915335686" duration="1661000" />
-    </task>
-    <task id="LOCAL-00020" summary="json_loader is added">
-      <created>1687662771337</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1687662771337</updated>
-    </task>
-    <task id="LOCAL-00021" summary="the data to test is created">
-      <created>1687663121531</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1687663121531</updated>
+      <workItem from="1687915335686" duration="3176000" />
     </task>
     <task id="LOCAL-00022" summary="the json_loader is created">
       <created>1687664796337</created>
@@ -516,7 +501,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687916843178</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="there was a naming collision">
+      <created>1687917447140</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1687917447140</updated>
+    </task>
+    <task id="LOCAL-00070" summary="the test for quwritters is created">
+      <created>1687918297603</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1687918297604</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,8 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the __init__.py for the quwriters is added" />
-    <MESSAGE value="the __init__.py for the quwriters is written" />
     <MESSAGE value="the readme file is removed to add it from github" />
     <MESSAGE value="quwriter tests delleted" />
     <MESSAGE value="the Asghar_S.py is created" />
@@ -559,12 +556,14 @@
     <MESSAGE value="unneccesry codes are removed from Asghar_S.py" />
     <MESSAGE value="the Rostam_Q.py is created and we changed the descriptions and name to optional argv" />
     <MESSAGE value="a test for type_checker is created and some deubng" />
-    <option name="LAST_COMMIT_MESSAGE" value="a test for type_checker is created and some deubng" />
+    <MESSAGE value="there was a naming collision" />
+    <MESSAGE value="the test for quwritters is created" />
+    <option name="LAST_COMMIT_MESSAGE" value="the test for quwritters is created" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/QuBu$csv_loader.coverage" NAME="csv_loader Coverage Results" MODIFIED="1687662658745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quloaders" />
     <SUITE FILE_PATH="coverage/QuBu$Asghar_S.coverage" NAME="Asghar_S Coverage Results" MODIFIED="1687882661762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
-    <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687916776789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/quwriter" />
+    <SUITE FILE_PATH="coverage/QuBu$.coverage" NAME=" Coverage Results" MODIFIED="1687918224410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/quwriter" />
     <SUITE FILE_PATH="coverage/QuBu$Rostam_S.coverage" NAME="Rostam_S Coverage Results" MODIFIED="1687812528482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/generators/stament" />
     <SUITE FILE_PATH="coverage/QuBu$quseq.coverage" NAME="quseq Coverage Results" MODIFIED="1687658211353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NchTan" />
     <SUITE FILE_PATH="coverage/QuBu$csv_writer.coverage" NAME="csv_writer Coverage Results" MODIFIED="1687732567930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quwriter" />

@@ -2,7 +2,7 @@
 a question that the statement will have some different conditions.
 For, example it can be true or false so the statement mode is true or
 false"""
-from checker import Check_Length
+from generators.stament.checker import Check_Length
 
 
 class ModeState(Check_Length):

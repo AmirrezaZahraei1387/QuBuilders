@@ -4,7 +4,7 @@ so first it neads a frame so the frame is going to be
 given from the user or anyone using the code. For example
 frame can be like the following.
 What is {} in Farsi?"""
-from checker import Check_Length
+from generators.stament.checker import Check_Length
 
 
 class AsgharState(Check_Length):
