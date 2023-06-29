@@ -60,7 +60,6 @@ class RostamState:
         return values
 
     def form(self):
-
         # if one of the values for arguments was length 0 it means it is ended
         if len(self.values_formatting[0]) == 0:
             return "NVQ"

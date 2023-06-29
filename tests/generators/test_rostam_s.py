@@ -2,13 +2,6 @@ import unittest
 from generators.stament import RostamState
 
 
-def add(a, b):
-    return a + b
-
-
-obj = RostamState("what is {}+{}?", [[5, 3, 2, 8, 4], [5, 3, 2, 1, 4]], add, False)
-
-
 class test(unittest.TestCase):
 
     def test_init__1(self):
@@ -44,6 +37,10 @@ class test(unittest.TestCase):
     def test_check_length(self):
         """the check_length will check if all the given
         arrays have the same length or no"""
+        def add(a, b):
+            return a + b
+
+        obj = RostamState("what is {}+{}?", [[5, 3, 2, 8, 4], [5, 3, 2, 1, 4]], add, False)
 
         try:
             obj.check_lengths()
@@ -54,10 +51,28 @@ class test(unittest.TestCase):
 
         self.assertEqual(v, True)
 
+    def test_form_NVQ(self):
+        """if the value of is_allowed_same was specified to False
+        after all the data was used the form function just
+        give NVQ"""
+
+        def add(a, b):
+            return a + b
+
+        obj = RostamState("what is {}+{}?", [[5, 3, 2, 8, 4], [5, 3, 2, 1, 4]], add, False)
+
+        for i in range(6):
+            a = obj.form()
+        self.assertEqual(a, "NVQ")
+
     def test_pick_random(self):
         """if we specify the value of is_allowed_same the class will
         automatically remove the data that is used. Now here we
         receive some random data, and then we check if it exists or no."""
+        def add(a, b):
+            return a + b
+
+        obj = RostamState("what is {}+{}?", [[5, 3, 2, 8, 4], [5, 3, 2, 1, 4]], add, False)
 
         length = len(obj.values_formatting[0])
         obj.pick_random()
@@ -67,22 +82,9 @@ class test(unittest.TestCase):
         # from the
         # data list. So the length should decrease
 
-    def test_form_NVQ(self):
-        """if the value of is_allowed_same was specified to False
-        after all the data was used the form function just
-        give NVQ"""
 
-        for i in range(6):
-            a = obj.form()
-        self.assertEqual(a, "NVQ")
-
-
-
-
-
-
-
-
+if __name__ == "__main__":
+    unittest.main()
 
 
 
