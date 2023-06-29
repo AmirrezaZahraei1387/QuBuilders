@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the configuration of ide changed and a new test for asghar_s added">
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_asghar_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/generators/test_asghar_S.py" afterDir="false" />
-    </list>
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the test is written in the first of all function tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +55,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_Mode_S.test.test_NVQ_response">
+  <component name="RunManager" selected="Python tests.Python tests in test_asghar_S.py">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +113,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_asghar_S.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/generators" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_asghar_S.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_checkers.test.test_length_save" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,34 +142,18 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_json_writer.test.test_write_all" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_asghar_S.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quwriter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/generators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_json_writer.test.test_write_all&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_json_writer.test.test_write_single" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QuBu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quwriter" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_json_writer.test.test_write_single&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/generators/test_asghar_S.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_checkers.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -176,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_Mode_S.test.test_NVQ_response" />
+        <item itemvalue="Python tests.Python tests in test_asghar_S.py" />
         <item itemvalue="Python tests.Python tests in test_checkers.py" />
+        <item itemvalue="Python tests.Python tests for test_asghar_S.test" />
+        <item itemvalue="Python tests.Python tests for test_Mode_S.test.test_NVQ_response" />
         <item itemvalue="Python tests.Python tests for test_checkers.test.test_length_save" />
-        <item itemvalue="Python tests.Python tests for test_json_writer.test.test_write_all" />
-        <item itemvalue="Python tests.Python tests for test_json_writer.test.test_write_single" />
       </list>
     </recent_temporary>
   </component>
@@ -213,20 +209,6 @@
       <workItem from="1687900023461" duration="1000" />
       <workItem from="1687915335686" duration="4350000" />
       <workItem from="1687968438893" duration="21000" />
-    </task>
-    <task id="LOCAL-00027" summary="the test is wriiten">
-      <created>1687721892660</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1687721892660</updated>
-    </task>
-    <task id="LOCAL-00028" summary="the license is the MIT license">
-      <created>1687721981785</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1687721981785</updated>
     </task>
     <task id="LOCAL-00029" summary="the license is the MIT license">
       <created>1687721996172</created>
@@ -557,7 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687998202753</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="some tests for asghar_s is created">
+      <created>1687999064059</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1687999064059</updated>
+    </task>
+    <task id="LOCAL-00077" summary="the test is written in the first of all function tests">
+      <created>1687999382594</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1687999382594</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,8 +571,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the Asghar_S.py is debugged" />
-    <MESSAGE value="the option for same questions or no added" />
     <MESSAGE value="the __init__ of class State is crated" />
     <MESSAGE value="the __init__ of class State is got better by adding some checking" />
     <MESSAGE value="the class state seem done" />
@@ -600,6 +594,8 @@
     <MESSAGE value="the init for the statement is created" />
     <MESSAGE value="the import is got more meaning" />
     <MESSAGE value="the configuration of ide changed and a new test for asghar_s added" />
-    <option name="LAST_COMMIT_MESSAGE" value="the configuration of ide changed and a new test for asghar_s added" />
+    <MESSAGE value="some tests for asghar_s is created" />
+    <MESSAGE value="the test is written in the first of all function tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="the test is written in the first of all function tests" />
   </component>
 </project>
