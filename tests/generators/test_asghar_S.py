@@ -4,7 +4,7 @@ from generators.stament import AsgharState
 
 class test(unittest.TestCase):
 
-    def check_init_1(self):
+    def test_check_init_1(self):
 
         try:
             AsgharState(["ffff", "gggggg"], ["ffff", "gggggg"], "KEY", True)
@@ -15,7 +15,7 @@ class test(unittest.TestCase):
             a = True
         self.assertEqual(a, True)
 
-    def check_init_2(self):
+    def test_check_init_2(self):
 
         try:
             AsgharState(["ffff", "gggggg"], ["ffff", "gggggg"], "KEYe", True)

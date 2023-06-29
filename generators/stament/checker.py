@@ -12,12 +12,12 @@ class Check_Length:
 
         self.array_1 = array_1
         self.array_2 = array_2
+        self.length = len(self.array_1)
         self.__is_allowed_same = is_allowed_same
 
     def check_length_save(self):
         """this method will check the length of statement_keys and
         statement_coms, and it will save one of them"""
-        self.length = len(self.array_1)
 
         if not (self.length == len(self.array_2)):
             raise ValueError("the length of keys and values of the data didn't match")
