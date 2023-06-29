@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the test is written in the first of all function tests" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the test is written in the first of all function tests">
+      <change beforePath="$PROJECT_DIR$/tests/generators/test_rostam_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/generators/test_rostam_s.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,20 +211,6 @@
       <workItem from="1687900023461" duration="1000" />
       <workItem from="1687915335686" duration="4350000" />
       <workItem from="1687968438893" duration="21000" />
-    </task>
-    <task id="LOCAL-00029" summary="the license is the MIT license">
-      <created>1687721996172</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1687721996172</updated>
-    </task>
-    <task id="LOCAL-00030" summary="the csv_writer.py is added">
-      <created>1687722367968</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1687722367968</updated>
     </task>
     <task id="LOCAL-00031" summary="the check_type_question is created">
       <created>1687729910079</created>
@@ -553,7 +541,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687999382594</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="the test is written in the first of all function tests">
+      <created>1687999438665</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1687999438665</updated>
+    </task>
+    <task id="LOCAL-00079" summary="the test is written in the first of all function tests">
+      <created>1687999449637</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1687999449637</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
