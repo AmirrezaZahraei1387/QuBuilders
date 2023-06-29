@@ -2,6 +2,13 @@ import unittest
 from generators.stament import RostamState
 
 
+def add(a, b):
+    return a + b
+
+
+obj = RostamState("what is {}+{}?", [[5, 3, 2, 8, 4], [5, 3, 2, 1, 4]], add, False)
+
+
 class test(unittest.TestCase):
 
     def test_init__1(self):
@@ -22,11 +29,11 @@ class test(unittest.TestCase):
         does match the number of values to format the program
         raise a ValueError"""
 
-        def add(a, b, c):
+        def add__(a, b, c):
             return a+b+c
 
         try:
-            RostamState("what is {}+{}?", [[5, 3, 2, 1, 4], [5, 3, 2, 1, 4]], add, False)
+            RostamState("what is {}+{}?", [[5, 3, 2, 1, 4], [5, 3, 2, 1, 4]], add__, False)
         except ValueError:
             y = True
         else:
@@ -34,5 +41,53 @@ class test(unittest.TestCase):
 
         self.assertEqual(y, True)
 
-    def test_values_formating_func(self):
-        pass
+    def test_check_length(self):
+        """the check_length will check if all the given
+        arrays have the same length or no"""
+
+        try:
+            obj.check_lengths()
+        except ValueError:
+            v = False
+        else:
+            v = True    # no error because all the given arrays have the same length
+
+        self.assertEqual(v, True)
+
+    def test_pick_random(self):
+        """if we specify the value of is_allowed_same the class will
+        automatically remove the data that is used. Now here we
+        receive some random data, and then we check if it exists or no."""
+
+        length = len(obj.values_formatting[0])
+        obj.pick_random()
+        length_new = len(obj.values_formatting[0])
+
+        self.assertEqual(length_new + 1, length)    # when the random value is received the values must be removed
+        # from the
+        # data list. So the length should decrease
+
+    def test_form_NVQ(self):
+        """if the value of is_allowed_same was specified to False
+        after all the data was used the form function just
+        give NVQ"""
+
+        for i in range(6):
+            a = obj.form()
+        self.assertEqual(a, "NVQ")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
