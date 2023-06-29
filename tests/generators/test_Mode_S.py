@@ -17,9 +17,13 @@ class test(unittest.TestCase):
         self.assertEqual(a, True)
 
     def test_NVQ_response(self):
+        global q
         obj = ModeState(["3+7 = 10", "8+6=13", "7+7=23"], ["T", "F", "F"], False)
         for i in range(12):
             q = obj.frame() # after three iterations the answer of this statement must be NVQ
 
         self.assertEqual(q, "NVQ")
 
+
+if __name__ == "__main__":
+    unittest.main()
