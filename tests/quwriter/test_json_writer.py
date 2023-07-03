@@ -41,6 +41,6 @@ class test(unittest.TestCase):
         # we assume that it works correctly
 
 
-
-
+if __name__ == "__main__":
+    unittest.main()
 
