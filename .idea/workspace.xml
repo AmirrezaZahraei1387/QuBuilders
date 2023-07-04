@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.6">
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "last_opened_file_path": "C:/Users/mzx776/QuBuilders",
+    "last_opened_file_path": "C:/Users/mzx776/Desktop/New folder",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +52,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample\questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mzx776\QuBuilders" />
       <recent name="C:\Users\mzx776\QuBuilders\QuBuilders" />
       <recent name="E:\Github Repos\QuBu\tests\quloaders" />
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample\eq" />
@@ -179,20 +180,6 @@
       <workItem from="1688441098575" duration="14000" />
       <workItem from="1688441113905" duration="1271000" />
       <workItem from="1688442413504" duration="70000" />
-    </task>
-    <task id="LOCAL-00050" summary="the Asghar_S.py is debugged">
-      <created>1687809687028</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1687809687028</updated>
-    </task>
-    <task id="LOCAL-00051" summary="the option for same questions or no added">
-      <created>1687809978387</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1687809978387</updated>
     </task>
     <task id="LOCAL-00052" summary="the __init__ of class State is crated">
       <created>1687810915883</created>
@@ -523,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688497331081</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="the version 0.0.6">
+      <created>1688497498845</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1688497498845</updated>
+    </task>
+    <task id="LOCAL-00100" summary="the version 0.0.6">
+      <created>1688497512269</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1688497512269</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
