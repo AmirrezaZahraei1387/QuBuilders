@@ -1,3 +1,0 @@
-validators
-beautifulsoup4
-hatchling

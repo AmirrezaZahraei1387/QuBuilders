@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.4" />
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,65 +56,65 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for QuBuilders.tests.generators.test_checkers.test.test_length_save">
-    <configuration name="Python tests for QuBuilders.tests.generators.test_checkers.test.test_length_save" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for tests.generators.test_checkers.test.test_length_save">
+    <configuration name="Python tests for tests.generators.test_checkers.test.test_length_save" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="C:\Users\mzx776\AppData\Local\Programs\Python\Python311\python.exe" />
       <option name="SDK_NAME" value="Python 3.11" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/generators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/generators" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;QuBuilders.tests.generators.test_checkers.test.test_length_save&quot;" />
+      <option name="_new_target" value="&quot;tests.generators.test_checkers.test.test_length_save&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for QuBuilders.tests.quloaders.test_json_loader.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.quloaders.test_json_loader.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/quloaders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;QuBuilders.tests.quloaders.test_json_loader.test&quot;" />
+      <option name="_new_target" value="&quot;tests.quloaders.test_json_loader.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for QuBuilders.tests.quwriter.test_json_writer.test.test_write_all" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.quwriter.test_json_writer.test.test_write_all" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/quwriter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quwriter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;QuBuilders.tests.quwriter.test_json_writer.test.test_write_all&quot;" />
+      <option name="_new_target" value="&quot;tests.quwriter.test_json_writer.test.test_write_all&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for QuBuilders.tests.quwriter.test_json_writer.test.test_write_single" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.quwriter.test_json_writer.test.test_write_single" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/quwriter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quwriter" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;QuBuilders.tests.quwriter.test_json_writer.test.test_write_single&quot;" />
+      <option name="_new_target" value="&quot;tests.quwriter.test_json_writer.test.test_write_single&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -123,22 +123,22 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/quloaders" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/quloaders" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/QuBuilders/tests/quloaders/test_json_loader.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/quloaders/test_json_loader.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_json_loader.py" />
-        <item itemvalue="Python tests.Python tests for QuBuilders.tests.generators.test_checkers.test.test_length_save" />
-        <item itemvalue="Python tests.Python tests for QuBuilders.tests.quwriter.test_json_writer.test.test_write_all" />
-        <item itemvalue="Python tests.Python tests for QuBuilders.tests.quwriter.test_json_writer.test.test_write_single" />
-        <item itemvalue="Python tests.Python tests for QuBuilders.tests.quloaders.test_json_loader.test" />
+        <item itemvalue="Python tests.Python tests for tests.generators.test_checkers.test.test_length_save" />
+        <item itemvalue="Python tests.Python tests for tests.quwriter.test_json_writer.test.test_write_all" />
+        <item itemvalue="Python tests.Python tests for tests.quwriter.test_json_writer.test.test_write_single" />
+        <item itemvalue="Python tests.Python tests for tests.quloaders.test_json_loader.test" />
       </list>
     </recent_temporary>
   </component>
@@ -177,34 +177,6 @@
       <workItem from="1688441098575" duration="14000" />
       <workItem from="1688441113905" duration="1271000" />
       <workItem from="1688442413504" duration="70000" />
-    </task>
-    <task id="LOCAL-00045" summary="the readme file is removed to add it from github">
-      <created>1687734100581</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1687734100581</updated>
-    </task>
-    <task id="LOCAL-00046" summary="quwriter tests delleted">
-      <created>1687806365035</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1687806365035</updated>
-    </task>
-    <task id="LOCAL-00047" summary="the Asghar_S.py is created">
-      <created>1687806657986</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1687806657986</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Asghar_S.py is written">
-      <created>1687808550013</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1687808550013</updated>
     </task>
     <task id="LOCAL-00049" summary="Asghar_S.py is debugged">
       <created>1687808890936</created>
@@ -521,7 +493,35 @@
       <option name="project" value="LOCAL" />
       <updated>1688496252847</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="the version 0.0.5">
+      <created>1688496529955</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1688496529955</updated>
+    </task>
+    <task id="LOCAL-00095" summary="the version 0.0.5">
+      <created>1688496554234</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1688496554234</updated>
+    </task>
+    <task id="LOCAL-00096" summary="the version 0.0.5">
+      <created>1688496581292</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1688496581292</updated>
+    </task>
+    <task id="LOCAL-00097" summary="the version 0.0.5">
+      <created>1688496587832</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1688496587832</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the __init__ of class State is got better by adding some checking" />
     <MESSAGE value="the class state seem done" />
     <MESSAGE value="the Rostam_S.py is tested" />
     <MESSAGE value="the __init__.py is added to the generators" />
@@ -564,6 +563,7 @@
     <MESSAGE value="the version 0.0.3 of the pakage released" />
     <MESSAGE value="the __init__.pys resolved" />
     <MESSAGE value="the version 0.0.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.4" />
+    <MESSAGE value="the version 0.0.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.5" />
   </component>
 </project>
