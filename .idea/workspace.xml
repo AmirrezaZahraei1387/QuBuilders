@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="main added">
-      <change afterPath="$PROJECT_DIR$/QuBuilders/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuBuilders/generators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuBuilders/tests/NchTan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuBuilders/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-package.yml" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/.github/workflows/python-package.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/QuBu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuBu.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NchTan/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/NchTan/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NchTan/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/NchTan/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NchTan/formd.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/NchTan/formd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NchTan/quseq.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/NchTan/quseq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qubuilders-0.0.1-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qubuilders-0.0.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qubuilders-0.0.2-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qubuilders-0.0.2.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/stament/Asghar_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/generators/stament/Asghar_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/stament/Mode_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/generators/stament/Mode_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/stament/Rostam_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/generators/stament/Rostam_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/stament/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/generators/stament/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generators/stament/checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/generators/stament/checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quloaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quloaders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quloaders/csv_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quloaders/csv_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quloaders/json_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quloaders/json_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quwriter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quwriter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quwriter/csv_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quwriter/csv_writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quwriter/json_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quwriter/json_writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quwriter/type_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/quwriter/type_checker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/NchTan/test_NchTan_From.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/NchTan/test_NchTan_From.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/NchTan/test_NchTan_quseq.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/NchTan/test_NchTan_quseq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_Mode_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_Mode_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_asghar_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_asghar_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_checkers.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_checkers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_rostam_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_rostam_s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/data_sample/eq/exa.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/data_sample/eq/exa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/data_sample/eq/exam.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/data_sample/eq/exam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/data_sample/exam.csv" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/data_sample/exam.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/test_csv_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/test_csv_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/test_json_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/test_json_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/data_sample/eq/exa.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/data_sample/eq/exa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/data_sample/eq/exam.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/data_sample/eq/exam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/data_sample/exam.csv" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/data_sample/exam.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/test_json_writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/test_type_checker.py" afterDir="false" />
-    </list>
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.3 of the pakage released" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,6 +50,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample\questions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mzx776\QuBuilders\QuBuilders" />
       <recent name="E:\Github Repos\QuBu\tests\quloaders" />
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample\eq" />
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
@@ -225,20 +177,6 @@
       <workItem from="1688441098575" duration="14000" />
       <workItem from="1688441113905" duration="1271000" />
       <workItem from="1688442413504" duration="70000" />
-    </task>
-    <task id="LOCAL-00040" summary="the option of closing files is added to all loaders and writers">
-      <created>1687733336460</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1687733336460</updated>
-    </task>
-    <task id="LOCAL-00041" summary="the write_files_all is created">
-      <created>1687733714888</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1687733714888</updated>
     </task>
     <task id="LOCAL-00042" summary="the folders for testing the quwriters is created">
       <created>1687733856378</created>
@@ -569,7 +507,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688442440592</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="the version 0.0.3 of the pakage released">
+      <created>1688495564430</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1688495564431</updated>
+    </task>
+    <task id="LOCAL-00090" summary="the version 0.0.3 of the pakage released">
+      <created>1688495576176</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1688495576176</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,7 +539,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the Asghar_S.py is debugged" />
     <MESSAGE value="the option for same questions or no added" />
     <MESSAGE value="the __init__ of class State is crated" />
     <MESSAGE value="the __init__ of class State is got better by adding some checking" />
@@ -612,6 +563,7 @@
     <MESSAGE value="the dist" />
     <MESSAGE value="the setup.py" />
     <MESSAGE value="main added" />
-    <option name="LAST_COMMIT_MESSAGE" value="main added" />
+    <MESSAGE value="the version 0.0.3 of the pakage released" />
+    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.3 of the pakage released" />
   </component>
 </project>
