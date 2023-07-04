@@ -1,8 +1,8 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling",'validators', 'beautifulsoup4',]
 build-backend = "hatchling.build"
 [project]
-name = "QuBu"
+name = "QuBuilders"
 version = "0.0.1"
 authors = [
   { name="Amirrza Zahraei", email="amir.reza.zahraei@gmail.com" },

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="main added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qubu-0.0.1-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/qubu-0.0.1.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,14 +178,7 @@
       <workItem from="1688438837264" duration="1767000" />
       <workItem from="1688440730652" duration="67000" />
       <workItem from="1688441098575" duration="14000" />
-      <workItem from="1688441113905" duration="647000" />
-    </task>
-    <task id="LOCAL-00035" summary="the json_writer is created">
-      <created>1687731171219</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1687731171219</updated>
+      <workItem from="1688441113905" duration="1063000" />
     </task>
     <task id="LOCAL-00036" summary="a docstring is added to json_writer.py file">
       <created>1687731425311</created>
@@ -521,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688441424787</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="main added">
+      <created>1688441813436</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1688441813436</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
