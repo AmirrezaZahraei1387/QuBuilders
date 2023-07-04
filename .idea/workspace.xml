@@ -175,13 +175,7 @@
       <workItem from="1688440730652" duration="67000" />
       <workItem from="1688441098575" duration="14000" />
       <workItem from="1688441113905" duration="1271000" />
-    </task>
-    <task id="LOCAL-00039" summary="the form is created">
-      <created>1687732990590</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1687732990590</updated>
+      <workItem from="1688442413504" duration="70000" />
     </task>
     <task id="LOCAL-00040" summary="the option of closing files is added to all loaders and writers">
       <created>1687733336460</created>
@@ -519,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688442389547</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="main added">
+      <created>1688442440591</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1688442440592</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
