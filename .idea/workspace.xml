@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.6">
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/NchTan/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/NchTan/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/NchTan/test_NchTan_From.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/NchTan/test_NchTan_From.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/NchTan/test_NchTan_quseq.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/NchTan/test_NchTan_quseq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_Mode_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_Mode_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_asghar_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_asghar_S.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_checkers.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_checkers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/generators/test_rostam_s.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/generators/test_rostam_s.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/data_sample/eq/exa.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/data_sample/eq/exa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/data_sample/eq/exam.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/data_sample/eq/exam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/data_sample/exam.csv" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/data_sample/exam.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/test_csv_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/test_csv_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quloaders/test_json_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quloaders/test_json_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/data_sample/eq/exa.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/data_sample/eq/exa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/data_sample/eq/exam.json" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/data_sample/eq/exam.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/data_sample/exam.csv" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/data_sample/exam.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_json_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/test_json_writer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/quwriter/test_type_checker.py" beforeDir="false" afterPath="$PROJECT_DIR$/QuBuilders/tests/quwriter/test_type_checker.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,21 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "last_opened_file_path": "C:/Users/mzx776/Desktop/New folder",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mzx776/Desktop/New folder&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Github Repos\QuBu\tests\quwriter" />
@@ -205,20 +183,6 @@
       <workItem from="1688441098575" duration="14000" />
       <workItem from="1688441113905" duration="1271000" />
       <workItem from="1688442413504" duration="70000" />
-    </task>
-    <task id="LOCAL-00053" summary="the __init__ of class State is got better by adding some checking">
-      <created>1687811231508</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1687811231508</updated>
-    </task>
-    <task id="LOCAL-00054" summary="the class state seem done">
-      <created>1687812157610</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1687812157610</updated>
     </task>
     <task id="LOCAL-00055" summary="the Rostam_S.py is tested">
       <created>1687812600760</created>
@@ -549,7 +513,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688497750527</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="the version 0.0.7">
+      <created>1688498674143</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1688498674143</updated>
+    </task>
+    <task id="LOCAL-00103" summary="the version 0.0.7">
+      <created>1688498726104</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1688498726104</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the Rostam_S.py is tested" />
     <MESSAGE value="the __init__.py is added to the generators" />
     <MESSAGE value="the files are debugged and some new options are added" />
     <MESSAGE value="a option  for checing all the lengths is added to Rostam_S.py." />
@@ -592,6 +569,7 @@
     <MESSAGE value="the version 0.0.4" />
     <MESSAGE value="the version 0.0.5" />
     <MESSAGE value="the version 0.0.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.6" />
+    <MESSAGE value="the version 0.0.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.7" />
   </component>
 </project>
