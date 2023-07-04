@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="main added">
-      <change beforePath="$PROJECT_DIR$/dist/qubu-0.0.1-py3-none-any.whl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/qubu-0.0.1.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-    </list>
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="main added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,28 +174,7 @@
       <workItem from="1688438837264" duration="1767000" />
       <workItem from="1688440730652" duration="67000" />
       <workItem from="1688441098575" duration="14000" />
-      <workItem from="1688441113905" duration="1063000" />
-    </task>
-    <task id="LOCAL-00036" summary="a docstring is added to json_writer.py file">
-      <created>1687731425311</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1687731425311</updated>
-    </task>
-    <task id="LOCAL-00037" summary="the type_checker.py is more compatible">
-      <created>1687732604886</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1687732604886</updated>
-    </task>
-    <task id="LOCAL-00038" summary="the formd is added">
-      <created>1687732864956</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1687732864956</updated>
+      <workItem from="1688441113905" duration="1271000" />
     </task>
     <task id="LOCAL-00039" summary="the form is created">
       <created>1687732990590</created>
@@ -523,7 +498,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688441813436</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="main added">
+      <created>1688442213323</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1688442213323</updated>
+    </task>
+    <task id="LOCAL-00086" summary="main added">
+      <created>1688442225574</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1688442225575</updated>
+    </task>
+    <task id="LOCAL-00087" summary="main added">
+      <created>1688442389547</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1688442389547</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
