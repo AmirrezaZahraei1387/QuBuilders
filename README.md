@@ -28,6 +28,13 @@ of all of them is the same.
 Now this is a little project named QuBu that will help you to generate
 such questions.
 
+installation:
+
+for installing the project you can simply use pip and your cmd:
+
+pip install QuBuilders
+
+
 
 
 
