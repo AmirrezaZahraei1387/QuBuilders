@@ -10,7 +10,7 @@ setup(
   author = 'Amirreza Zahraei',                   # Type in your name
   author_email = 'amir.reza.zahraei@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/AmirrezaZahraei1387/QuBu',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/AmirrezaZahraei1387/QuBu/blob/master/dist/qubuilders-0.0.7.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/AmirrezaZahraei1387/QuBu/blob/master/dist/qubuilders-0.0.8.tar.gz',    # I explain this later on
   keywords = ['Question', 'multiple choice questions', 'creating questions'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',

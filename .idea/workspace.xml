@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.7">
+    <list default="true" id="0643fa01-c989-4e6e-8770-b93352bd1ffb" name="Changes" comment="the version 0.0.8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../AppData/Local/Programs/Python/Python311/Lib/site-packages/QuBuilders/__init__.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +61,7 @@
       <recent name="E:\Github Repos\QuBu\quloaders\data_sample" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for QuBuilders.tests.generators.test_checkers.test.test_length_save">
+  <component name="RunManager" selected="Python tests.Python tests in test_csv_loader.py">
     <configuration name="Python tests for QuBuilders.tests.generators.test_checkers.test.test_length_save" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,21 +75,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;QuBuilders.tests.generators.test_checkers.test.test_length_save&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for QuBuilders.tests.quloaders.test_json_loader.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="QuBu" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/quloaders" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;QuBuilders.tests.quloaders.test_json_loader.test&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -124,6 +108,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_csv_loader.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="QuBu" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QuBuilders/tests/quloaders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/QuBuilders/tests/quloaders/test_csv_loader.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_json_loader.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="QuBu" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_csv_loader.py" />
         <item itemvalue="Python tests.Python tests for QuBuilders.tests.generators.test_checkers.test.test_length_save" />
         <item itemvalue="Python tests.Python tests in test_json_loader.py" />
         <item itemvalue="Python tests.Python tests for QuBuilders.tests.quwriter.test_json_writer.test.test_write_all" />
         <item itemvalue="Python tests.Python tests for QuBuilders.tests.quwriter.test_json_writer.test.test_write_single" />
-        <item itemvalue="Python tests.Python tests for QuBuilders.tests.quloaders.test_json_loader.test" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +181,6 @@
       <workItem from="1688441098575" duration="14000" />
       <workItem from="1688441113905" duration="1271000" />
       <workItem from="1688442413504" duration="70000" />
-    </task>
-    <task id="LOCAL-00055" summary="the Rostam_S.py is tested">
-      <created>1687812600760</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1687812600760</updated>
     </task>
     <task id="LOCAL-00056" summary="the __init__.py is added to the generators">
       <created>1687812765343</created>
@@ -527,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688498726104</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="the version 0.0.8">
+      <created>1688499264220</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1688499264220</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="the __init__.py is added to the generators" />
     <MESSAGE value="the files are debugged and some new options are added" />
     <MESSAGE value="a option  for checing all the lengths is added to Rostam_S.py." />
     <MESSAGE value="the test requrements for quwriters is added" />
@@ -570,6 +567,7 @@
     <MESSAGE value="the version 0.0.5" />
     <MESSAGE value="the version 0.0.6" />
     <MESSAGE value="the version 0.0.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.7" />
+    <MESSAGE value="the version 0.0.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="the version 0.0.8" />
   </component>
 </project>
