@@ -28,12 +28,30 @@ of all of them is the same.
 Now this is a little project named QuBu that will help you to generate
 such questions.
 
-installation:
+# installation:
 
 for installing the project you can simply use pip and your cmd:
 
-pip install QuBuilders
+```cmd
+# for Uix/MacOS
+python3 -m pip install QuBuilders
 
+# for windows
+py -m pip install QuBuilders
+```
+
+# How to use
+
+to use this project first let's go to talk about how to make 
+a simple question:
+
+For making a question you can simply use QuestionDataSaver class to save 
+your questions and manage them in an appropriate way. to save your question 
+you can do like the following code:
+
+``` python
+from QuBuilders.NchTan import QuestionDataSaver
+```
 
 
 
